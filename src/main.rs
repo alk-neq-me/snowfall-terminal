@@ -1,7 +1,10 @@
+use std::thread;
 use std::process::Command;
-use std::{thread, time::Duration};
+use std::time::Duration;
 
-use rand::{thread_rng, Rng, seq::SliceRandom};
+use rand::Rng;
+use rand::thread_rng;
+use rand::seq::SliceRandom;
 
 
 #[derive(Debug)]
