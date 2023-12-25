@@ -1,4 +1,5 @@
-use std::{process::Command, thread, time::Duration};
+use std::process::Command;
+use std::{thread, time::Duration};
 
 use rand::{thread_rng, Rng, seq::SliceRandom};
 
